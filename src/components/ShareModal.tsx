@@ -13,7 +13,7 @@ export function ShareModal({ isOpen, onClose, score, total }: ShareModalProps) {
   const [copied, setCopied] = useState(false);
   const percentage = Math.round((score / total) * 100);
   
-  const shareText = `🧠 Je viens de marquer ${percentage}% sur l'application Modern Quiz!\n\n🎯 ${score}/${total} questions correctes\n\nDéfie-toi et teste tes connaissances! 🚀`;
+  const shareText = `🧠 Je viens de marquer ${percentage}% sur l'application Civix Quiz!\n\n🎯 ${score}/${total} questions correctes\n\nDéfie-toi et teste tes connaissances! 🚀`;
   const shareUrl = window.location.href;
   
   const shareLinks = {
