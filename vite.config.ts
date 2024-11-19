@@ -9,9 +9,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['quiz-icon.svg', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Modern Quiz App',
-        short_name: 'Quiz App',
-        description: 'Test your knowledge with our modern quiz application',
+        name: 'Civix Quiz',
+        short_name: 'Civix Quiz',
+        description: 'Le quiz du citoyen nouveau, teste tes connaissances!',
         theme_color: '#6366f1',
         background_color: '#ffffff',
         display: 'standalone',
