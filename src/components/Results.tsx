@@ -34,7 +34,7 @@ export function Results({ score, total, onReset }: ResultsProps) {
         <div className="mb-8">
           <div className="text-5xl font-bold text-indigo-600 mb-2">{percentage}%</div>
           <p className="text-gray-600">
-            Vous avez marqué {score} sur {total} questions correctement
+            Vous avez trouvé {score} question(s) correcte(s) sur {total}  
           </p>
           <motion.div
             initial={{ width: 0 }}
